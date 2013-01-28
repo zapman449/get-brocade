@@ -13,8 +13,8 @@ get-brocade.conf
 The config file.  This shows the switch DNS name => fabric name mapping.  
 In theory, there's no limit to the number of switches in a fabric, but the 
 data gathering is serialized currently, so it could be slow for very large
-fabrics.
-Ex:
+fabrics.  
+Ex:  
 switch1.domain.com => fabric_a  
 switch2.domain.com => fabric_a  
 switch3.domain.com => fabric_a  
