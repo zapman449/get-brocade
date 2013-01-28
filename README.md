@@ -15,12 +15,12 @@ In theory, there's no limit to the number of switches in a fabric, but the
 data gathering is serialized currently, so it could be slow for very large
 fabrics.
 Ex:
-switch1.domain.com => fabric_a
-switch2.domain.com => fabric_a
-switch3.domain.com => fabric_a
-switch4.domain.com => fabric_b
-switch5.domain.com => fabric_b
-switch6.domain.com => fabric_b
+switch1.domain.com => fabric_a  
+switch2.domain.com => fabric_a  
+switch3.domain.com => fabric_a  
+switch4.domain.com => fabric_b  
+switch5.domain.com => fabric_b  
+switch6.domain.com => fabric_b  
 
 defines two fabrics, each with three switches in them
 Switch names must be FQDN's
